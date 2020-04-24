@@ -1,15 +1,11 @@
-# jsherbert36.github.io
-## Jacob Herbert Practice Website
+# Jacob Herbert Practice Website
 
 <html>
-<head>
-
-</head>
 
 <body>
 <div id="wrapper">
 <div id="header">
-	### Ernest Shackleton (1874 - 1922)
+	<h3>Ernest Shackleton (1874 - 1922)<h3/>
 	<img src="shackletonicon.jpg" alt = "Ernest Shackleton at Dulwich College"/>
 </div>
 
