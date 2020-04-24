@@ -1,5 +1,5 @@
 # jsherbert36.github.io
-Practice html code
+## Jacob Herbert Practice Website
 
 <html>
 <head>
@@ -9,7 +9,7 @@ Practice html code
 <body>
 <div id="wrapper">
 <div id="header">
-	<h2> Ernest Shackleton (1874 - 1922) </h2>
+	### Ernest Shackleton (1874 - 1922)
 	<img src="shackletonicon.jpg" alt = "Ernest Shackleton at Dulwich College"/>
 </div>
 
@@ -23,7 +23,7 @@ Practice html code
 	</ul>
 </div>
 
-<h3> Shackleton's Life </h3>
+#### Shackleton's Life
 
 <div id="container">
 
@@ -49,7 +49,7 @@ He was buried on the Island of South Georgia.
 How far (according to Shackleton's wikipedia page) is it from Elephant Island
 to South Georgia in Nautical Miles?<span class="myquote" id="ans"><span/>
 
-
+---
 
 Thank you for visiting my webpage
 
