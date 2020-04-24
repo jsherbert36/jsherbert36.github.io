@@ -20,12 +20,10 @@
 <p>During his life he made three trips to the Antarctic. As well as climbing Mount Erebus he made many important scientific discoveries. On his fourth expedition to circumnavigate the Antartic he died of a heart attack. He was buried on the Island of South Georgia.</p>
 
 
-<h3>Quiz</h3>
+<h4>Quiz</h4>
 
 <p>How far (according to Shackleton's wikipedia page) is it from Elephant Island
-to South Georgia in Nautical Miles?</p>
-
-***
+to South Georgia in Nautical Miles?</p>  
 
 Thank you for visiting my webpage
 
