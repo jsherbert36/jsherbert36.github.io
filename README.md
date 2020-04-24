@@ -8,10 +8,10 @@
 <img src="shackletonicon.jpg" alt = "Ernest Shackleton at Dulwich College"/>
 
 
-* Shackleton's Life 
-* Dulwich College 
-* Endurance Expedition 
-* James Caird 
+- Shackleton's Life 
+- Dulwich College 
+- Endurance Expedition 
+- James Caird 
 
 #### Shackleton's Life
 
