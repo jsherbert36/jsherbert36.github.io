@@ -2,16 +2,6 @@
 Practice html code
 <html>
 <head>
-<title> Ernest Shackleton </title>
-<link href = "styles/style.css" rel="stylesheet" type="text/css">
-<script>
-function chk_ans()
-{
-	my_elem = document.getElementById('ans');
-	my_elem.innerHTML = '800 nautical miles';
-	my_elem.style.color = 'red';
-}
-</script>
 
 </head>
 
