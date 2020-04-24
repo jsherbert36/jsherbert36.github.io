@@ -1,8 +1,5 @@
 # Jacob Herbert Practice Website
 
-<html>
-
-<body>
 
 ### Ernest Shackleton (1874 - 1922)
 <img src="shackletonicon.jpg" alt = "Ernest Shackleton at Dulwich College"/>
