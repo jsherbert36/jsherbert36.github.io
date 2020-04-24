@@ -37,18 +37,18 @@ He was one of the principal figures of the period known as the Heroic Age of Ant
  Educated at Dulwich College and having ignored his father's wishes that he become a doctor he joined the merchant 
 navy. Of many quotes one of his most famous is,<span class="myquote">Difficulties are just things to overcome, 
 after all.</span> </p>
-<p = class="snippet">
+
 During his life he made three trips to the Antarctic. As well as climbing Mount Erebus he made many important
  scientific discoveries. On his fourth expedition to circumnavigate the Antartic he died of a heart attack. 
 He was buried on the Island of South Georgia.
-</p>
+
 </div>
 <div class="clearme"></div>
 <div id="quiz">
 <h3> Quiz </h3>
-<p>How far (according to Shackleton's wikipedia page) is it from Elephant Island
+How far (according to Shackleton's wikipedia page) is it from Elephant Island
 to South Georgia in Nautical Miles?<span class="myquote" id="ans"><span/></p>
-<p> <button onCLick='chk_ans()'>Check Answer</button></p>
+
 </div>
 <div id="footer">
 Thank you for visiting my webpage
