@@ -47,14 +47,10 @@ He was buried on the Island of South Georgia.
 <div id="quiz">
 <h3> Quiz </h3>
 How far (according to Shackleton's wikipedia page) is it from Elephant Island
-to South Georgia in Nautical Miles?<span class="myquote" id="ans"><span/></p>
+to South Georgia in Nautical Miles?<span class="myquote" id="ans"><span/>
 
-</div>
-<div id="footer">
+
+
 Thank you for visiting my webpage
-</div>
-</div>
 
-</body>
 
-</html>
