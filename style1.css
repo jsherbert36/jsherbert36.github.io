@@ -1,7 +1,7 @@
 body {
     background-color: #0d1013;
     color: #e8e4d4;
-    font-family: Italiana, serif;
+    font-family: Playfair Display, serif;
     margin: 2vw;
     text-align: center;
     font-size: 4vmin;
@@ -12,7 +12,8 @@ body {
     line-height: 14vw;
     text-align: center;
     text-transform: uppercase;
-    margin: 0;
+    font-family: Italiana, serif;
+    margin: 10vh auto 0;
 }
 
 #amph {
@@ -26,21 +27,22 @@ body {
     font-family: sans-serif;
     color: lightblue;
     font-weight: 450;
-    margin: 12vmax 0;
+    margin: 30vmax auto;
 }
 
 .footer {
     bottom: 0;
+    padding: 0 3%;
     text-align: center;
     height: 5vh;
-    font-size: 2.1vw;
+    font-size: 2.5vmin;
 }
 
 .link {
-    position: relative;
     color: #e8e4d4;
-    font-weight: bold;
     text-decoration: none;
+    margin: auto 2vw;
+    font-family: Playfair Display, serif;
 }
 
 .link:hover {
@@ -48,21 +50,24 @@ body {
     text-decoration: underline;
 }
 
-.footer-elements {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 h2 {
     margin-top: 15vmax;
     font-size: 8vmin;
+    font-weight: normal;
 }
 
 .connect {
-    margin: 0 auto 5%;
+    margin: 0 auto 15vmax;
 }
 
 .links {
     font-size: 5vmin;
+}
+
+.about {
+    margin: 9%;
+}
+
+p {
+    font-family: Playfair Display, serif;
 }
