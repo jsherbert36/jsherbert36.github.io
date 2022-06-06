@@ -2,6 +2,9 @@ body {
     background-color: #0d1013;
     color: #e8e4d4;
     font-family: Italiana, serif;
+    margin: 2vw;
+    text-align: center;
+    font-size: 4vmin;
 }
 
 .intro {
@@ -19,12 +22,11 @@ body {
 
 .meet {
     text-transform: uppercase;
-    text-align: center;
-    font-size: 4vw;
+    font-size: 5vw;
     font-family: sans-serif;
     color: lightblue;
-    font-weight: 350;
-    margin: 20vh;
+    font-weight: 450;
+    margin: 12vmax 0;
 }
 
 .footer {
@@ -37,13 +39,12 @@ body {
 .link {
     position: relative;
     color: #e8e4d4;
-    font-size: 2vw;
     font-weight: bold;
     text-decoration: none;
 }
 
 .link:hover {
-    color: #fe6610;
+    color: #108bfe;
     text-decoration: underline;
 }
 
@@ -51,4 +52,17 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+h2 {
+    margin-top: 15vmax;
+    font-size: 8vmin;
+}
+
+.connect {
+    margin: 0 auto 5%;
+}
+
+.links {
+    font-size: 5vmin;
 }
