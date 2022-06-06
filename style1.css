@@ -5,7 +5,7 @@ body {
     margin: 2vh 2vw 2vmin;
     text-align: center;
     font-size: 4vmin;
-    cursor: url("smiley_face.cur"), auto;
+    cursor: url('images/smiley_face.png'), auto;
 }
 
 .intro {
@@ -15,9 +15,43 @@ body {
     text-transform: uppercase;
     font-family: Italiana, serif;
     margin: 10vh auto 0;
+    --color-1: #e8e4d4;
+    --color-2: #b2bee4;
+    --color-3: #e6b0de;
+    animation: color-animation 4s linear infinite;
 }
 
-#amph {
+@keyframes color-animation {
+    0% {
+        color: var(--color-1)
+    }
+
+    32% {
+        color: var(--color-1)
+    }
+
+    33% {
+        color: var(--color-2)
+    }
+
+    65% {
+        color: var(--color-2)
+    }
+
+    66% {
+        color: var(--color-3)
+    }
+
+    99% {
+        color: var(--color-3)
+    }
+
+    100% {
+        color: var(--color-1)
+    }
+}
+
+.amph {
     font-family: 'Amphibian', serif;
     font-weight: 100;
 }
@@ -29,6 +63,7 @@ body {
     color: lightblue;
     font-weight: 450;
     margin: 30vmax auto;
+
 }
 
 .footer {
@@ -42,13 +77,14 @@ body {
 .link {
     color: #e8e4d4;
     text-decoration: none;
-    margin: auto 2vw;
+    margin: auto 1vw;
+    padding: 1vw;
     font-family: Playfair Display, serif;
 }
 
 .link:hover {
     color: #108bfe;
-    text-decoration: underline;
+    cursor: url('images/pointing.png'), auto;
 }
 
 h2 {
@@ -62,7 +98,7 @@ h2 {
 }
 
 .links {
-    font-size: 5vmin;
+    font-size: 2.5vmax;
 }
 
 .about {
@@ -71,4 +107,35 @@ h2 {
 
 p {
     font-family: Playfair Display, serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.uni-button {
+    background-color: #000;
+    border: .5px solid crimson;
+    border-radius: 10px;
+    color: #e8e4d4;
+    padding: 2%;
+    box-shadow: 0 0 30px 0 crimson,
+        0 0 30px 0 crimson,
+        0 0 10px 0 crimson inset;
+    font-size: 8vmin;
+    font-family: Playfair Display, serif;
+    cursor: url('images/pointing.png'), auto;
+}
+
+.uni-button:hover {
+    background-color: crimson;
+    color: #000;
+    box-shadow: 0 0 30px 0 crimson,
+        0 0 30px 0 crimson,
+        0 0 10px 0 crimson inset;
+    font-weight: bold;
+}
+
+.university {
+    margin-bottom: 8vmax;
 }
