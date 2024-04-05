@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-  color: rgb(105, 143, 255)
+  color: rgb(105, 143, 255);
 }
 
 h2 {
@@ -37,8 +37,6 @@ h2 {
 .connect {
   margin-top: 6vh;
 }
-
-
 
 p {
   font-family: Playfair Display, serif;
