@@ -1,19 +1,27 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+  cursor: url("images/pointing.png"), auto;
+}
 body {
   background-color: #0d1013;
   color: #e8e4d4;
   font-family: Playfair Display, serif;
-  margin: 2vh 2vw 2vmin;
+  margin: 0 3vmax;
   text-align: center;
-  font-size: 4vmin;
+  font-size: 5vmin;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
 }
 
 .intro {
-  font-size: 9vw;
+  font-size: 9vmax;
   text-transform: uppercase;
   font-family: Italiana, serif;
   margin-bottom: 0;
@@ -39,14 +47,9 @@ h2 {
   margin: 0;
 }
 .about {
-    margin: 12vh 0;
+  margin: 10vh 0;
 }
 
 p {
   font-family: Playfair Display, serif;
-}
-
-* {
-  box-sizing: border-box;
-  cursor: url("images/pointing.png"), auto;
 }
