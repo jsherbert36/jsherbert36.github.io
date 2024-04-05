@@ -1,141 +1,50 @@
 body {
-    background-color: #0d1013;
-    color: #e8e4d4;
-    font-family: Playfair Display, serif;
-    margin: 2vh 2vw 2vmin;
-    text-align: center;
-    font-size: 4vmin;
-    cursor: url('images/smiley_face.png'), auto;
+  background-color: #0d1013;
+  color: #e8e4d4;
+  font-family: Playfair Display, serif;
+  margin: 2vh 2vw 2vmin;
+  text-align: center;
+  font-size: 4vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .intro {
-    font-size: 16vw;
-    line-height: 14vw;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Italiana, serif;
-    margin: 10vh auto 0;
-    --color-1: #e8e4d4;
-    --color-2: #b2bee4;
-    --color-3: #e6b0de;
-    animation: color-animation 4s linear infinite;
+  font-size: 9vw;
+  text-transform: uppercase;
+  font-family: Italiana, serif;
+  margin-bottom: 6vh;
 }
 
-@keyframes color-animation {
-    0% {
-        color: var(--color-1)
-    }
-
-    32% {
-        color: var(--color-1)
-    }
-
-    33% {
-        color: var(--color-2)
-    }
-
-    65% {
-        color: var(--color-2)
-    }
-
-    66% {
-        color: var(--color-3)
-    }
-
-    99% {
-        color: var(--color-3)
-    }
-
-    100% {
-        color: var(--color-1)
-    }
+a {
+  color: rgb(173, 193, 230);
+  text-decoration: none;
+  font-family: Playfair Display, serif;
 }
 
-.amph {
-    font-family: 'Amphibian', serif;
-    font-weight: 100;
-}
-
-.meet {
-    text-transform: uppercase;
-    font-size: 5vw;
-    font-family: sans-serif;
-    color: lightblue;
-    font-weight: 450;
-    margin: 30vmax auto;
-
-}
-
-.footer {
-    bottom: 0;
-    padding: 0 3%;
-    text-align: center;
-    height: 5vh;
-    font-size: 2.5vmin;
-}
-
-.link {
-    color: #e8e4d4;
-    text-decoration: none;
-    margin: auto 1vw;
-    padding: 1vw;
-    font-family: Playfair Display, serif;
-}
-
-.link:hover {
-    color: #108bfe;
-    cursor: url('images/pointing.png'), auto;
+a:hover {
+  color: rgb(105, 143, 255)
 }
 
 h2 {
-    margin-top: 15vmax;
-    font-size: 8vmin;
-    font-weight: normal;
+  font-size: 7vmin;
+  font-weight: normal;
+  margin: 0;
 }
-
 .connect {
-    margin: 0 auto 15vmax;
+  margin-top: 6vh;
 }
 
-.links {
-    font-size: 2.5vmax;
-}
 
-.about {
-    margin: 9%;
-}
 
 p {
-    font-family: Playfair Display, serif;
+  font-family: Playfair Display, serif;
 }
 
 * {
-    box-sizing: border-box;
-}
-
-.uni-button {
-    background-color: #000;
-    border: .5px solid crimson;
-    border-radius: 10px;
-    color: #e8e4d4;
-    padding: 2%;
-    box-shadow: 0 0 30px 0 crimson,
-        0 0 30px 0 crimson,
-        0 0 10px 0 crimson inset;
-    font-size: 8vmin;
-    font-family: Playfair Display, serif;
-    cursor: url('images/pointing.png'), auto;
-}
-
-.uni-button:hover {
-    background-color: crimson;
-    color: #000;
-    box-shadow: 0 0 30px 0 crimson,
-        0 0 30px 0 crimson,
-        0 0 10px 0 crimson inset;
-    font-weight: bold;
-}
-
-.university {
-    margin-bottom: 8vmax;
+  box-sizing: border-box;
+  cursor: url("images/pointing.png"), auto;
 }
