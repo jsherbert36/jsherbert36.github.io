@@ -19,7 +19,9 @@ body {
   margin-bottom: 6vh;
   margin-top: 0;
 }
-
+h1 {
+  margin-top: 0;
+}
 a {
   color: rgb(173, 193, 230);
   text-decoration: none;
